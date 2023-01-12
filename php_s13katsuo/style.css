@@ -1,0 +1,43 @@
+@charset "utf-8";
+html{
+    background-color: black;
+    text-align: center;
+    margin:0 0 5px ;
+    padding:0 0 24px;
+}
+h1{
+    color: blue;
+    font-size: 36px;
+    font-family:'Times New Roman', Times, serif
+}
+
+h2{
+    color: red;
+    font-size: 24px;
+}
+
+h3{
+    color: green;
+    font-size: 18px;
+}
+
+.header{
+    background: yellow;
+    color: #000;
+}
+
+.site-title{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 18px 18px 18px;
+}
+
+.nav-list{
+    display: flex;
+}
+.nav-item{
+    margin: 18px 18px 18px 40px;
+}
+.nav-item>a{
+    color: pink;
+  }
